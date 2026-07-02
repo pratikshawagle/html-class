@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            margin:10px;
+            padding: 5px;
+            border: 2px solid rgb(58, 0, 128);
+        }
+        .box:hover{
+            background-color:rgb(137, 40, 116); 
+            border:1px solid rgb(10, 164, 115);
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Hello CCT CSIT 2nd sem
+    </div>
+    <!-- <div id="box"></div> -->
+</body>
+</html>
